@@ -1,0 +1,23 @@
+.load-more{
+    text-align:center;
+    margin:10px auto 50px auto;
+    color: #fff;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: #fff solid 2px;
+    border-radius: 5px;
+    background-color: #66545E;
+    
+    &:hover {
+        background-color: #fff;
+        border: #66545E solid 2px;
+        cursor: pointer;
+        color: #66545E;
+    }
+
+    &:disabled{
+        opacity:0.5;
+    }
+}
