@@ -1,0 +1,44 @@
+.up-button{
+    display:none;
+    height: 50px;;
+    width: 50px;;
+    position: sticky;
+    left: 95%;
+    bottom: 50%;
+
+}
+.up-link{
+    cursor:pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    //position:absolute;
+    //right:80px;
+    //top:150px;
+
+
+   
+
+
+    &__svg{
+
+        height:50px;
+        width:50px;
+        padding:8px;
+        border-radius: 50%;
+        border: solid 1px #66545E;
+        object-fit: contain;
+
+        fill:#66545E;
+
+        &:hover {
+                background-color: #66545E;
+                fill: #fff;
+        
+            }
+        
+
+
+    }
+
+}
