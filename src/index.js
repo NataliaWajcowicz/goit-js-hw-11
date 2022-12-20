@@ -17,7 +17,6 @@ searchBtn.addEventListener('click', event => {
   gallery.innerHTML = '';
   pageNumber = 1;
   loadBtn.removeAttribute('disabled');
-  //loadBtn.style.display = 'none';
   searchInput = input.value.trim();
   if (searchInput.length !== 0) {
     fetchImages(searchInput, pageNumber)
