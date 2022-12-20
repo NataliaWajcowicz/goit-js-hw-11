@@ -17,7 +17,7 @@ searchBtn.addEventListener('click', event => {
   gallery.innerHTML = '';
   pageNumber = 1;
   loadBtn.removeAttribute('disabled');
-  loadBtn.style.display = 'none';
+  //loadBtn.style.display = 'none';
   searchInput = input.value.trim();
   if (searchInput.length !== 0) {
     fetchImages(searchInput, pageNumber)
@@ -29,7 +29,6 @@ searchBtn.addEventListener('click', event => {
         } else {
           createGallery(response.hits);
           Notify.success(`Hooray! We found ${response.totalHits} images.`);
-          upBtn.style.display = 'block';
           if (response.totalHits > 40) {
             loadBtn.style.display = 'block';
           }
