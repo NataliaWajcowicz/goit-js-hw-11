@@ -1,6 +1,6 @@
 import { fetchImages } from './fetchImages';
 import { Notify } from 'notiflix';
-import SimpleLightbox from 'simplelightbox';
+import SimpleLightbox from '../node_modules/simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const input = document.querySelector('[name=searchQuery]');
